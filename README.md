@@ -67,7 +67,7 @@ Updates progress bar with given value and stops progress bar is total value is r
 |value    |float64  |
 
 ## Usage
-Default Progress Bar:
+#### Default Progress Bar:
 
 ```go
 package main
@@ -103,7 +103,7 @@ func main() {
 Terminal Output:
 ![Default Terminal Output](/images/default.gif)
 
-New Progress Bar:
+#### New Progress Bar:
 
 ```go
 package main
@@ -147,7 +147,7 @@ func main() {
 Terminal Output:
 ![New Terminal Output](/images/new.gif)
 
-New Progress Bar Colored With [color](https://github.com/ermanimer/color) On Linux:
+#### New Progress Bar Colored With [color](https://github.com/ermanimer/color) On Linux:
 
 ```go
 package main

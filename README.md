@@ -5,7 +5,7 @@ Go Progress Bar
 [![Go Report Card](https://goreportcard.com/badge/github.com/ermanimer/progress_bar)](https://goreportcard.com/report/github.com/ermanimer/progress_bar)
 
 ## Features
-progress_bar creates a single customizable progress bar for terminal.
+progress_bar creates a single customizable progress bar for Linux terminal.
 
 ## Installation
 ```bash
@@ -147,7 +147,7 @@ func main() {
 Terminal Output:
 ![New Terminal Output](/images/new.gif)
 
-#### New Progress Bar Colored With [color](https://github.com/ermanimer/color) On Linux:
+#### New Progress Bar Colored With [color](https://github.com/ermanimer/color):
 
 ```go
 package main

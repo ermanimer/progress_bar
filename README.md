@@ -13,7 +13,7 @@ go get -u github.com/ermanimer/progress_bar
 ```
 
 ## Functions
-#### DefaultProgressBar
+#### DefaultProgressBar(totalValue float64) *ProgressBar
 Creates a progress bar with default parameters and given total value.
 
 |Parameter |Data Type|
@@ -29,7 +29,7 @@ Default parameters:
 |Default Blank Character |.                                                                                |
 |Default Length          |50                                                                               |
 
-#### NewProgressBar
+#### NewProgressBar(output io.Writer, schema string, filledCharacter string, blankCharacter string, length float64, totalValue float64) *ProgressBar
 Creates a progress bar with default parameters and given total value.
 
 |Parameter      |Data Type|
@@ -53,13 +53,13 @@ Schema Variables:
 |{remaining}    |Estimated remaining duration |
 
 ## Methods
-#### Start
+#### Start() error
 Starts progress bar.
 
-#### Stop
+#### Stop() error
 Stops progress bar.
 
-#### Update
+#### Update(value float64) error
 Updates progress bar with given value and stops progress bar is total value is reached.
 
 |Parameter|Data Type|

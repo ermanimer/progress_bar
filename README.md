@@ -46,7 +46,7 @@ Schema Variables:
 |Schema Variable|Value                                                                            |
 |:--------------|:----------------------------|
 |{bar}          |Bar of progress bar          |
-|{percent}      |Percentege of progress bar   |
+|{percent}      |Percentage of progress bar   |
 |{current}      |Current value of progress bar|
 |{total}        |Total value of progress bar  |
 |{elapsed}      |Elapsed duration             |

@@ -34,7 +34,7 @@ const (
 //escape codes
 const (
 	ecClearLine      = "\u001b[2K"
-	ecMovecursorLeft = "\u001b[%dD"
+	ecMoveCursorLeft = "\u001b[%dD"
 )
 
 type ProgressBar struct {
@@ -130,7 +130,7 @@ func (pb *ProgressBar) print() {
 	//clear line and offset cursor
 	if pb.offset > 0 {
 		fmt.Fprint(pb.Output, ecClearLine)
-		fmt.Fprintf(pb.Output, ecMovecursorLeft, pb.offset)
+		fmt.Fprintf(pb.Output, ecMoveCursorLeft, pb.offset)
 	}
 	//print progress bar
 	fmt.Fprint(pb.Output, progressBar)

@@ -16,9 +16,9 @@ go get -u github.com/ermanimer/progress_bar
 #### DefaultProgressBar(totalValue float64) *ProgressBar
 Creates a progress bar with default parameters and given total value.
 
-|Parameter |Data Type|
-|:---------|:--------|
-|totalValue|float64  |
+|Parameter |Description                 |
+|:---------|:---------------------------|
+|totalValue|Total value of progress bar|
 
 Default parameters:
 
@@ -32,14 +32,14 @@ Default parameters:
 #### NewProgressBar(output io.Writer, schema string, filledCharacter string, blankCharacter string, length float64, totalValue float64) *ProgressBar
 Creates a progress bar with default parameters and given total value.
 
-|Parameter      |Data Type|
-|:--------------|:--------|
-|output         |io.Writer|
-|schema         |string   |
-|filledCharacter|float64  |
-|blankCharacter |float64  |
-|length         |float64  |
-|totalValue     |float64  |
+|Parameter      |Description                     |
+|:--------------|:-------------------------------|
+|output         |Output of progress bar          |
+|schema         |Schema of progress bar          |
+|filledCharacter|Filled character of progress bar|
+|blankCharacter |Blank character of progress bar |
+|length         |Length of progress bar          |
+|totalValue     |Total value of progress bar     |
 
 Schema Variables:
 
@@ -62,9 +62,9 @@ Stops progress bar.
 #### Update(value float64) error
 Updates progress bar with given value and stops progress bar is total value is reached.
 
-|Parameter|Data Type|
-|:--------|:--------|
-|value    |float64  |
+|Parameter|Description                  |
+|:--------|:----------------------------|
+|value    |Current value of progress bar|
 
 ## Usage
 #### Default Progress Bar:

@@ -5,7 +5,7 @@ Go Progress Bar
 [![Go Report Card](https://goreportcard.com/badge/github.com/ermanimer/progress_bar)](https://goreportcard.com/report/github.com/ermanimer/progress_bar)
 
 ## Features
-progress_bar creates a single customizable progress bar for Linux terminal.
+progress_bar creates a single customizable progress bar for Unix terminal.
 
 ## Installation
 ```bash

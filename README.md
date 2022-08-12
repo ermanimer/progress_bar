@@ -1,8 +1,9 @@
 # progress_bar
-Go Progress Bar
 
 ![Go](https://github.com/ermanimer/progress_bar/workflows/Go/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/ermanimer/progress_bar)](https://goreportcard.com/report/github.com/ermanimer/progress_bar)
+
+Go Progress Bar
 
 ## Features
 progress_bar creates a single customizable progress bar for Unix terminal.
